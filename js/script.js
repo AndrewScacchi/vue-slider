@@ -52,13 +52,10 @@ const myApp = new Vue({
                     this.activeSlide = this.slides.length - 1;
                 }
                 // console.log(this.activeSlide);
+            },
+            // on click of image make that image the active slide..
+            onClick(activeSlide){
+                this.activeSlide = activeSlide;
             }
-
-
         }
-
-   
-
-
-
     });
